@@ -7,17 +7,17 @@ import "./globals.css";
 const xProto = localFont({
   src: [
     {
-    path: "./fonts/0xProto-Regular.woff2",
+    path: "./fonts/xProto-Regular.woff2",
     weight:"400",
     },
 
     {
-    path: "./fonts/0xProto-Bold.woff2",
+    path: "./fonts/xProto-Bold.woff2",
     weight:"700",
     },
 
     {
-    path: "./fonts/0xProto-Italic.woff2",
+    path: "./fonts/xProto-Italic.woff2",
     weight:"400",
     },
   ],
