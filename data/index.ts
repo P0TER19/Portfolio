@@ -12,10 +12,10 @@ export const gridItems = [
     id: 1,
     title: "Every project is a chance to make a meaningful impact and leave a lasting impression",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white",
-    imgClassName: "w-full h-full",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-black",
+    imgClassName: "object-center",
     titleClassName: "justify-end",
-    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5pd2hicndpdGwzZno2c3pqM3lyeXpwcDFudGl3MWRyeXl2dW1idyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.webp", 
+    img: "/firstbento.gif", 
     spareImg: "",
   },
   {
@@ -56,7 +56,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-[-10rem] bottom-0 md:w-[40rem] w-90 opacity-40", 
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/ray-so-export.svg",
+    img: "/rust.svg",
     spareImg: "/grid.svg",
   },
   {
