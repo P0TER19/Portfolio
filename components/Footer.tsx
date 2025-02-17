@@ -1,7 +1,6 @@
 import React from 'react'
-import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
 import { socialMedia } from "@/data/index"
+import Cal from './cal'
 
 const Footer = () => {
   return (
@@ -10,13 +9,7 @@ const Footer = () => {
         <h1 className='text-black'>
           Ready to take <span className='text-blue-800'>your</span> digital presence to the next level ?
         </h1>
-        <a className="mt-5 w-70 inline-block" href='mailto:rayenbenbetaieb@gmail.com'>
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position='right'
-          />
-        </a>
+        <Cal/>
       </div>
       <div className='w-full flex mt-16 md:flex-row flex-col justify-between items-center'>
         <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2025 Rayen Benbetaieb</p>
